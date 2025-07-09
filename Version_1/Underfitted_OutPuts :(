@@ -1,0 +1,80 @@
+Epoch 1: 100%|██████████| 14199/14199 [56:57<00:00,  4.15it/s, loss=0.375]
+Classification Report:
+                precision    recall  f1-score   support
+
+     amusement       0.00      0.00      0.00      1829
+         anger       0.00      0.00      0.00      1591
+     annoyance       0.00      0.00      0.00      2762
+      approval       0.00      0.00      0.00      3452
+        caring       0.00      0.00      0.00      1209
+     confusion       0.00      0.00      0.00      1414
+     curiosity       0.00      0.00      0.00      1902
+        desire       0.00      0.00      0.00       787
+disappointment       0.00      0.00      0.00      1690
+   disapproval       0.00      0.00      0.00      2358
+       disgust       0.00      0.00      0.00      1126
+ embarrassment       0.00      0.00      0.00       479
+    excitement       0.00      0.00      0.00      1070
+          fear       0.00      0.00      0.00       671
+     gratitude       0.00      0.00      0.00      2304
+         grief       0.00      0.00      0.00       126
+           joy       0.00      0.00      0.00      1619
+          love       0.06      1.00      0.11      1614
+   nervousness       0.00      0.00      0.00       368
+      optimism       0.00      0.00      0.00      1692
+         pride       0.00      0.00      0.00       258
+   realization       0.00      0.00      0.00      1788
+        relief       0.00      0.00      0.00       220
+       remorse       0.00      0.00      0.00       477
+       sadness       0.00      0.00      0.00      1390
+      surprise       0.00      0.00      0.00      1160
+
+     micro avg       0.06      0.05      0.05     35356
+     macro avg       0.00      0.04      0.00     35356
+  weighted avg       0.00      0.05      0.00     35356
+   samples avg       0.06      0.05      0.05     35356
+
+
+
+Macro F1: 0.0041 | Micro F1: 0.0506
+
+
+Text: Two questions: do we still get a lip sync next week with [NAME] and [NAME] next week? do they do anything week 6?
+Predicted:  ['love']
+True     :  ['confusion', 'curiosity']
+
+Text: Like a turd in a big toilet
+Predicted:  ['love']
+True     :  ['amusement', 'annoyance']
+
+Text: Too fast for me in the chat room. I'm on my phone and can't type that fast. Here is more relaxed and everyone is hilarious.
+Predicted:  ['love']
+True     :  ['amusement', 'relief']
+
+Text: I would do that all day until she learned not to put her dirty feet on the dash!!
+Predicted:  ['love']
+True     :  ['anger', 'annoyance']
+
+Text: [NAME] and [NAME] for Trout?
+Predicted:  ['love']
+True     :  ['confusion']
+
+Text: You need professional help for that level of paranoia.
+Predicted:  ['love']
+True     :  ['caring']
+
+Text: She reminds me if [NAME]. Half haked pictures with vague sayings. Ugh
+Predicted:  ['love']
+True     :  ['disappointment']
+
+Text: The inevitable divorce is probably going to cost him more than a new ring
+Predicted:  ['love']
+True     :  ['realization']
+
+Text: You're didn't vote for her you are obviously a racist, sexist, homophobe, you're the worst kinda person.
+Predicted:  ['love']
+True     :  ['anger']
+
+Text: My favorite new fan! Glad to see you here! Rest up and get ready for the Friday game.
+Predicted:  ['love']
+True     :  ['joy']
