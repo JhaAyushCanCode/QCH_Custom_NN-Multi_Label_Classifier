@@ -1,0 +1,83 @@
+Output of version_2
+
+
+
+Macro F1: 0.0362 | Micro F1: 0.0709
+
+Text: Literally everywhere. There's nothing especially Texan about any of this. I heard all of this in freaking SCONSIN.
+Predicted:  []
+True     :  ['disappointment']
+
+Text: [NAME] and [NAME] may be stronger, but [NAME] just gone mad. She's lost the plot for sure.
+Predicted:  []
+True     :  ['surprise']
+
+Text: Ik I’m crying rn
+Predicted:  []
+True     :  ['remorse']
+
+Text: He was cut yesterday, unfortunately
+Predicted:  []
+True     :  ['surprise']
+
+Text: Nice, I saw them during the Demo and was pretty impressed 
+Predicted:  []
+True     :  ['amusement', 'approval']
+
+Text: Funny you ask
+Predicted:  []
+True     :  ['amusement']
+
+Text: Minus the eyebrows I personally think it’s an attractive look. But the fucking eyebrows ruin it all.
+Predicted:  []
+True     :  ['anger']
+
+Text: [NAME] is 16 and [NAME] is 19... But she's looks 16 as [NAME] 0.0
+Predicted:  []
+True     :  ['surprise']
+
+Text: J E S U S C H R I S T those eyes
+Predicted:  []
+True     :  ['surprise']
+
+Text: my heart...
+Predicted:  []
+True     :  ['surprise']
+
+
+
+Classification Report:
+                precision    recall  f1-score   support
+
+     amusement       0.00      0.00      0.00      1891
+         anger       0.00      0.00      0.00      1628
+     annoyance       0.00      0.00      0.00      2722
+      approval       0.00      0.00      0.00      3418
+        caring       0.00      0.00      0.00      1147
+     confusion       0.00      0.00      0.00      1463
+     curiosity       0.00      0.00      0.00      1941
+        desire       0.00      0.00      0.00       758
+disappointment       0.00      0.00      0.00      1671
+   disapproval       0.00      0.00      0.00      2289
+       disgust       0.00      0.00      0.00      1074
+ embarrassment       0.00      0.00      0.00       502
+    excitement       0.00      0.00      0.00      1121
+          fear       0.00      0.00      0.00       625
+     gratitude       0.86      0.61      0.71      2330
+         grief       0.00      0.00      0.00       115
+           joy       0.00      0.00      0.00      1597
+          love       0.69      0.16      0.26      1632
+   nervousness       0.00      0.00      0.00       365
+       neutral       0.00      0.00      0.00      1769
+      optimism       0.00      0.00      0.00       260
+         pride       0.00      0.00      0.00      1715
+   realization       0.00      0.00      0.00       257
+        relief       0.00      0.00      0.00       518
+       remorse       0.00      0.00      0.00      1294
+       sadness       0.00      0.00      0.00      1074
+      surprise       0.72      0.00      0.01     11185
+
+     micro avg       0.83      0.04      0.07     46361
+     macro avg       0.08      0.03      0.04     46361
+  weighted avg       0.24      0.04      0.05     46361
+   samples avg       0.04      0.04      0.04     46361
